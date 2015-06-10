@@ -42,3 +42,20 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'devise'
+gem 'figaro', '>= 1.0.0.rc1'
+gem 'haml-rails'
+gem 'kaminari'
+gem 'mina', :github=>"fushang318/mina", :tag=>"v0.2.0fix"
+gem 'mongoid'
+gem 'omniauth'
+gem 'omniauth-weibo-oauth2'
+gem 'simple_form'
+
+group :development do
+  gem 'html2haml'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
