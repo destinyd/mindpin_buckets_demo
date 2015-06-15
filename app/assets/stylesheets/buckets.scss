@@ -1,0 +1,110 @@
+ol, ul {
+  list-style: none;
+}
+
+ol.buckets li, ol.projects li, ol.lists li, ol.goods li {
+  position: relative;
+  margin: 0 0 8px 0;
+  padding: 0 0 8px 0;
+  font-size: 13px;
+  line-height: 1.2;
+  border-bottom: 1px solid #dddddd;
+}
+
+#bucket-add ol.buckets, #project-add ol.projects, #list-add ol.lists, #good-add ol.goods {
+  height: 275px;
+  overflow: auto;
+}
+
+#bucket-add ol.buckets li {
+  border-bottom: none;
+  margin: 0 0 5px 0;
+  padding: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ol.buckets li a span.bucket-img {
+  /*background: url(https://dribbble.com/assets/bucket-frame-368d6e588f77543bd19cb38d87a77edf.png) no-repeat 0 0;*/
+  float: left;
+  display: block;
+  width: 60px;
+  height: 58px;
+  margin: 0 8px 0 0;
+  padding: 5px;
+}
+
+ol.buckets li a span.bucket-img img, ol.projects li a span.bucket-img img {
+  background: url(https://dribbble.com/assets/bucket-frame-368d6e588f77543bd19cb38d87a77edf.png) no-repeat 0 0;
+  float: left;
+  max-width: 60px;
+  max-height: 45px;
+}
+
+ol.buckets li.current a span.bucket-img img, ol.projects li a:hover span.bucket-img img {
+  opacity: .6;
+}
+
+#bucket-add ol.buckets li a strong, #project-add ol.projects li a strong, #list-add ol.lists li a strong, #good-add ol.goods li a strong {
+  display: block;
+  margin-right: 50px;
+  color: #444444;
+}
+
+#bucket-add ol.buckets li.bucketed a strong, #project-add ol.projects li.bucketed a strong, #list-add ol.lists li.included a strong, #good-add ol.goods li.included a strong {
+  color: #fff;
+}
+
+ol.buckets li a span.bucket-meta, ol.projects li a span.bucket-meta, ol.lists li a span.list-meta, ol.goods li a span.good-meta {
+  display: block;
+  margin: 6px 0 0 0;
+  font-size: 13px;
+  line-height: 1;
+  color: #777777;
+}
+
+li.bucketed a span.bucket-meta, #list-add ol.lists li.included a span.list-meta, #good-add ol.goods li.included a span.good-meta {
+  color: rgba(255,255,255,0.7);
+}
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+ol.buckets li a, ol.projects li a, ol.lists li a, ol.goods li a {
+  display: block;
+  overflow: hidden;
+}
+
+.overlay .add ol li.current a {
+  background: rgba(0,0,0,0.07);
+}
+
+#bucket-add ol.buckets li a, #project-add ol.projects li a, #list-add ol.lists li a, #good-add ol.goods li a {
+  display: block;
+  padding: 6px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#bucket-add ol.buckets li.bucketed a, #project-add ol.projects li.bucketed a, #list-add ol.lists li.included a, #good-add ol.goods li.included a {
+  background-color: #ea4c89;
+  background-image: url(https://dribbble.com/assets/icon-check-big-bb5377bf37067dd5901910e2d6d6dbbc.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
+#bucket-add ol.buckets li.bucketed.current a, #list-add ol.lists li.included a:hover {
+  background-image: url(https://dribbble.com/assets/icon-minus-big-627e76a1da484f8900104a7915d2ab77.png);
+}
+
+#bucket-add ol li.current a {
+  background: rgba(0,0,0,0.07);
+}

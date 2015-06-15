@@ -40,6 +40,7 @@ class User
   field :avatar_url,    type: String
 
   has_many :user_tokens
+  has_many :folders
 
   # https://github.com/mongoid/mongoid/issues/3626#issuecomment-64700154
   def self.serialize_from_session(key, salt)

@@ -25,3 +25,6 @@ group :development do
   gem 'html2haml'
   gem 'rails_layout'
 end
+
+gem 'bootstrap-sass'
+gem 'mindpin_buckets', path: '/Users/DD/mr/mindpin_buckets'

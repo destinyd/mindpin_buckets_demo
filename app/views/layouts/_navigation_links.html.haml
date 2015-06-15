@@ -1,3 +1,4 @@
+%li= link_to 'photos', photos_path
 - if user_signed_in?
   %li= link_to '登出', destroy_user_session_path, :method=>'delete'
 - else
