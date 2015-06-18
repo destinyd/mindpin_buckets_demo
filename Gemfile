@@ -27,4 +27,6 @@ group :development do
 end
 
 gem 'bootstrap-sass'
-gem 'mindpin_buckets', path: '/Users/DD/mr/mindpin_buckets'
+# for test
+#gem 'mindpin_buckets', path: '/Users/DD/mr/mindpin_buckets'
+gem 'mindpin_buckets', github: 'destinyd/mindpin_buckets'

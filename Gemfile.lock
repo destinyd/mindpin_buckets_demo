@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/destinyd/mindpin_buckets.git
+  revision: 4d600c6776e0c58f8fb7f20606eb6eb79374e9b8
+  specs:
+    mindpin_buckets (0.0.1)
+
+GIT
   remote: git://github.com/fushang318/mina.git
   revision: 93f5ca5d1c9588a59859704302543710af7b37d0
   tag: v0.2.0fix
@@ -6,11 +12,6 @@ GIT
     mina (0.2.0)
       open4
       rake
-
-PATH
-  remote: /Users/DD/mr/mindpin_buckets
-  specs:
-    mindpin_buckets (0.0.1)
 
 GEM
   remote: https://ruby.taobao.org/
