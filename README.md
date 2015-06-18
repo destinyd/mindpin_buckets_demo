@@ -28,6 +28,19 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Getting Started
 ---------------
+### 运行方法
+```
+cp config/application.example.yml config/application.yml
+bundle install
+```
+
+修改**config/application.yml**, 填入新浪微博测试应用相关属性
+最后运行
+```
+rails s
+```
+
+访问你新浪微博测试应用网址:3000即可
 
 Documentation and Support
 -------------------------
