@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/destinyd/mindpin_buckets.git
-  revision: 4d600c6776e0c58f8fb7f20606eb6eb79374e9b8
+  revision: 97700ea3472ff584080e80abd9ccd3e754ef8c15
   specs:
     mindpin_buckets (0.0.1)
 
